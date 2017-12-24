@@ -1,0 +1,8 @@
+This is real EEG data from one subject. 
+The one recording lasts 5 seconds.
+
+First, it's 4 channels of EEG.
+Second, it's 84 records of 4 channels in each data files.
+
+Sample rate is 0.004 (dt = 0.004)
+Length of one record is 1250 (N = 1250)
