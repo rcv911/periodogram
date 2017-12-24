@@ -12,7 +12,7 @@ stimulation; the electroneurogram, or field potentials from local regions in the
 signals from individual neurons or heart cells; the electromyogram (EMG), or electrical activity from
 the muscle; the electroretinogram from the eye; and so on.
 
-We are going to use real [EEG data]() from one subject.
+We are going to use real [EEG data](https://github.com/rcv911/periodogram/tree/master/data%20files) from one subject.
 
 ## Motivation
 
@@ -34,13 +34,14 @@ Here's EEG time series and EEG spectrum from different 5 sec records. Number of 
 ![](images/eeg_spectrum_21.png)
 ![](images/eeg_spectrum_50.png)
 
-Look at the spectrum. It has fluctuations of 13-40 Hz, so you can see [betta waves](https://en.wikipedia.org/wiki/Beta_wave)
+Look at the spectrum. It has fluctuations of 13-40 Hz, so you can see [betta waves.](https://en.wikipedia.org/wiki/Beta_wave)
 It's just simple example. If we talk about statistic data or how it helps in diagnostic we cannot use this data. 
-First of all we need to average 84 records. [See this repository]()
+First of all we need to average 84 records. [See this repository](https://github.com/rcv911/spectrum-average)
 
 ## Learn more
 
 - [Wiki](https://en.wikipedia.org/wiki/Electroencephalography)
+- You can use [scipy.signal.periodogram](https://docs.scipy.org/doc/scipy-0.13.0/reference/generated/scipy.signal.periodogram.html#scipy-signal-periodogram)
 
 ## Installation
 
